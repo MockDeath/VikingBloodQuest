@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GameLogic\GameLogic.csproj" />
+    <Folder Include="CharacterCreation\" />
+    <Folder Include="Enemies\" />
+    <Folder Include="Actions\" />
   </ItemGroup>
 
 </Project>
